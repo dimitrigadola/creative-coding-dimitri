@@ -1,0 +1,181 @@
+*,
+html,
+body {
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: "cinetype__bold";
+  src: url(font/GT-Cinetype-Bold.otf);
+}
+
+@font-face {
+  font-family: "cinetype__regular";
+  src: url(font/GT-Cinetype-Regular.otf);
+}
+
+
+body {
+  font-family: "cinetype__regular";
+  padding: 0;
+  margin: 0;
+  user-select: none;
+  /* Standard syntax */
+  -webkit-user-select: none;
+  /* Safari */
+  -ms-user-select: none;
+  /* IE 10 and IE 11 */
+
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  color: rgb(175,205, 202);
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  font-family: "cinetype__bold";
+  font-size: 13rem;
+}
+
+h2 {
+  font-family: "cinetype__bold";
+  font-size: 14rem;
+}
+
+h5 {
+  font-family: "cinetype__regular";
+  font-size: 1rem;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  height: 100%;
+}
+
+.container {
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  background-color: white;
+  justify-content: center;
+}
+
+.sprint__container {
+  width: 22vw;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.sprints {
+  position: absolute;
+
+  text-align: center;
+  line-height: 22%;
+  /* transition: line-height 200ms ease-in; */
+}
+
+/* .sprints:hover {
+  line-height: 78%;
+  transition: line-height 200ms ease-out;
+} */
+
+.sprints__ontop {
+  position: absolute;
+  text-align: center;
+  line-height: 78%;
+  z-index: 5;
+  font-family: "cinetype__regular";
+  font-size: 12rem;
+  color: black;
+  opacity: 0;
+
+  text-shadow: 
+  0 0 0px black,
+  0 0 0px white;
+  transition: opacity 200ms ease-in, text-shadow 200ms ease-in;
+}
+
+.sprints__ontop:hover {
+  opacity: 1;
+
+  text-shadow: 
+  0 0 6px black,
+  0 0 8px white;
+  transition: opacity 200ms ease-out, text-shadow 200ms ease-out;
+}
+
+
+.einflug__layer {
+  position: fixed;
+  z-index: 10;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  pointer-events: none;
+}
+
+
+.einflug {
+  position: absolute;
+  padding: 2rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  margin-left: -190vw;
+  background-color: rgb(255, 137, 2);
+  transition: margin-left 600ms ease-in;
+  pointer-events: auto;
+  cursor: none;
+}
+
+.einflug:hover {
+  margin-left: 0;
+  transition: margin-left 1200ms ease-out;
+}
+
+.crco {
+  color: white;
+  text-shadow: 
+  0 0 6px white,
+  0 0 8px rgb(175,205, 202);
+}
+
+.einschuss__holder {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+.einschuss {
+  padding: 1rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  margin-right: -11vw;
+  background-color:rgb(255, 137, 2);
+  transition: margin-right 300ms ease-in;
+  pointer-events: auto;
+  cursor: none;
+}
+
+.einschuss:hover {
+  margin-right: 0;
+  transition: margin-right 600ms ease-out;
+}
+
+.copyright {
+  color: white;
+  text-shadow: none;
+}

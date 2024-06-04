@@ -51,8 +51,8 @@ function draw() {
 
 
 
-  let source = join(adj, ' ')
-  let words = match(source, /\b\w{5}\b/g);
+  // let source = join(adj, ' ')
+  // let words = match(source, /\b\w{5}\b/g);
 
-  text(words, 50, 200, windowWidth, windowHeight);
+  // text(words, 50, 200, windowWidth, windowHeight);
 }

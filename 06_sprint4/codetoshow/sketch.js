@@ -20,18 +20,18 @@ let ro;
 
 
 function preload() {
-  S1 = loadSound('assets/5.1_mandela_cut.wav');
-  S2 = loadSound('assets/5.2_kolisi_cut2.wav');
-  S3 = loadSound('assets/1.1_trump_cut.wav');
-  S4 = loadSound('assets/1.2_thunberg_cut.wav');
-  S5 = loadSound('assets/2.1_queen_cut.wav');
-  S6 = loadSound('assets/2.2_charles_cut.wav');
-  S7 = loadSound('assets/3.1_weidel_cut2.wav');
-  S8 = loadSound('assets/3.2_benediktXVI_cut2.wav');
-  S9 = loadSound('assets/4.1_lai_cut2.wav');
-  S10 = loadSound('assets/4.2_jinping_cut3.wav');
-  S11 = loadSound('assets/6.1_swift_cut.wav');
-  S12 = loadSound('assets/6.2_butker_cut.wav');
+  S1 = loadSound('assets/5.1_mandela_cut.mp3');
+  S2 = loadSound('assets/5.2_kolisi_cut2.mp3');
+  S3 = loadSound('assets/1.1_trump_cut.mp3');
+  S4 = loadSound('assets/1.2_thunberg_cut.mp3');
+  S5 = loadSound('assets/2.1_queen_cut.mp3');
+  S6 = loadSound('assets/2.2_charles_cut.mp3');
+  S7 = loadSound('assets/3.1_weidel_cut2.mp3');
+  S8 = loadSound('assets/3.2_benediktXVI_cut2.mp3');
+  S9 = loadSound('assets/4.1_lai_cut2.mp3');
+  S10 = loadSound('assets/4.2_jinping_cut3.mp3');
+  S11 = loadSound('assets/6.1_swift_cut.mp3');
+  S12 = loadSound('assets/6.2_butker_cut.mp3');
 }
 
 
